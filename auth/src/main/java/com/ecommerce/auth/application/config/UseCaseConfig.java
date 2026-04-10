@@ -1,0 +1,14 @@
+package com.ecommerce.auth.application.config;
+
+import com.ecommerce.auth.domain.model.geteway.UsuarioGateway;
+import com.ecommerce.auth.domain.usecase.UsuarioUseCase;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class UseCaseConfig {
+    @Bean
+    public UsuarioUseCase usuarioUseCase(UsuarioGateway usuarioGateway){
+        return new UsuarioUseCase(usuarioGateway);
+    }
+}

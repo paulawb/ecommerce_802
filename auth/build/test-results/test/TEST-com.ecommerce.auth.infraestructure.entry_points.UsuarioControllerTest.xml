@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ecommerce.auth.infraestructure.entry_points.UsuarioControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-08T21:24:02.113Z" hostname="MAPIS" time="0.02">
+  <properties/>
+  <testcase name="eliminarUsuario_retornaNotFound_cuandoNoExiste()" classname="com.ecommerce.auth.infraestructure.entry_points.UsuarioControllerTest" time="0.013"/>
+  <testcase name="actualizarUsuario_retornaOk_yConservaCamposNoEnviados()" classname="com.ecommerce.auth.infraestructure.entry_points.UsuarioControllerTest" time="0.002"/>
+  <testcase name="guardarUsuario_retornaConflict_cuandoCedulaYaExiste()" classname="com.ecommerce.auth.infraestructure.entry_points.UsuarioControllerTest" time="0.001"/>
+  <testcase name="eliminarUsuario_retornaOk_cuandoExiste()" classname="com.ecommerce.auth.infraestructure.entry_points.UsuarioControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
